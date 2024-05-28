@@ -995,12 +995,14 @@
   font-family: var(--text-font);
 }
 .accueil {
-  background: linear-gradient(
+  background: linear-gradient(to top right,     #40d9d7 70%,    #fff );
+  background-position: fixed;
+  /* background: linear-gradient(
     243.2deg,
     #fff 38.02%,
     #40d9d7 69%,
     #40d9d7 98.37%
-  );
+  ); */
   width: 100%;
   height: 5171px;
   overflow: hidden;

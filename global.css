@@ -62,3 +62,67 @@ body {
   --br-56xl: 75px;
   --br-11xl: 30px;
 }
+
+/* Navbar */
+.accueil1 a, .a-propos a, .contact a, .service a, .simulation a, .faq a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: var(--sub-title-font-size);
+}
+
+.service a:hover, .simulation a:hover, .faq a:hover {
+  color: var(--white);
+  text-decoration: underline var(--white);
+  transition: ease-in-out 0.3s;
+  background-color: var(--secondary-color);
+}
+
+.accueil1 a, .a-propos a, .contact a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.accueil1 a:hover, .a-propos a:hover, .contact a:hover{
+  color: var(--secondary-color);
+  text-decoration: underline var(--secondary-color);
+  transition: ease-in-out 0.3s;
+  background-color: var(--white);
+}
+
+.accueil4 a, .service6 a, .simulation3 a, .a-propos6 a, .contact4 a, .faq6 a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: var(--sub-title-font-size);
+}
+
+.header3 {
+  position: absolute;
+}
+
+.header3 {
+  width: 1440px;
+  margin: 0 !important;
+  top: 0;
+  left: -24px;
+  height: 89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+  font-size: var(--sub-title-font-size);
+  color: var(--secondary-color);
+}
+
+.header-item {
+  position: absolute;
+  height: 100%;
+  width: 6.11%;
+  top: 0;
+  right: 92.92%;
+  bottom: 0;
+  left: 0.97%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
